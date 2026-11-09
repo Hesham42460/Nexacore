@@ -1,0 +1,14 @@
+{
+  "name": "nexacore-erp-saas-server",
+  "version": "3.0.0",
+  "description": "Production Multi-Tenant SaaS Backend Server for NexaCore ERP",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
