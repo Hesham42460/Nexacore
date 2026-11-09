@@ -1,7 +1,7 @@
 {
  "app": "invoicing",
  "v": 2,
- "savedAt": "2026-11-09T09:16:16.437Z",
+ "savedAt": "2026-11-09T09:52:53.703Z",
  "data": {
   "settings": {
    "poPrefix": "PO-",
@@ -164,7 +164,7 @@
     "warehouseId": "wh_main",
     "items": [
      {
-      "id": "mw91qvgzx20gt",
+      "id": "mw91r7xenmta7",
       "itemId": "it_1",
       "name": "وحدة واجهة ألومنيوم عازلة للصوت والحرارة (م²)",
       "code": "PRD-101",
@@ -173,7 +173,7 @@
       "price": "3500"
      },
      {
-      "id": "mw91qvgzbkq2k",
+      "id": "mw91r7xe12tgv",
       "itemId": "it_2",
       "name": "باب مصفح تركي فاخر مقاس 100×215 سم",
       "code": "PRD-102",
@@ -187,7 +187,7 @@
     "taxPct": 14,
     "payments": [
      {
-      "id": "mw91qvgzkoi46",
+      "id": "mw91r7xen8c64",
       "date": "2026-11-09",
       "amount": "85000",
       "method": "تحويل بنكي",
@@ -229,7 +229,7 @@
     "supplierId": "s_1",
     "lines": [
      {
-      "id": "mw91qvgzeqg5t",
+      "id": "mw91r7xe7f4hg",
       "desc": "شراء قطاعات ألومنيوم خام وزجاج مزدوج للمخزن",
       "acct": "5101",
       "amount": "45000"
@@ -238,7 +238,7 @@
     "taxPct": 14,
     "payments": [
      {
-      "id": "mw91qvgz7q7si",
+      "id": "mw91r7xe9w2so",
       "date": "2026-11-09",
       "amount": "30000",
       "method": "تحويل بنكي",
@@ -541,7 +541,7 @@
     "discVal": "500",
     "items": [
      {
-      "id": "mw91qvgz1pj83",
+      "id": "mw91r7xe6g8k6",
       "name": "وحدة واجهة ألومنيوم عازلة للصوت والحرارة (م²)",
       "code": "PRD-101",
       "qty": "15",
@@ -819,6 +819,13 @@
    }
   ],
   "auditLogs": [
+   {
+    "id": "mw91r7xewhp9n",
+    "time": "2026-11-09 11:16",
+    "module": "النظام",
+    "detail": "تحميل البيانات التجريبية الشاملة لنظام NexaCore ERP",
+    "user": "مدير النظام"
+   },
    {
     "id": "mw91qvgzhzngm",
     "time": "2026-11-09 11:16",
