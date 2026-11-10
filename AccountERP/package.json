@@ -1,0 +1,9 @@
+{
+  "name": "nexacore-erp",
+  "version": "1.0.0",
+  "description": "Invoicing, inventory, purchases, expenses and payroll ERP (no dependencies)",
+  "main": "server.js",
+  "engines": { "node": ">=22.5" },
+  "scripts": { "start": "node --no-warnings server.js" }
+}
+

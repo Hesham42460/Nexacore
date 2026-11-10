@@ -1,0 +1,46 @@
+﻿<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NexaCore ERP</title>
+<link rel="icon" type="image/png" href="logo-mark.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app" hidden>
+  <header class="top">
+    <div class="brand"><img id="brandLogo" class="logo-box" alt=""><div><h1 id="brandName"></h1><p class="sub" id="brandSub"></p></div></div>
+    <div class="top-actions">
+      <span class="net-pill" id="userPill"></span>
+      <button class="theme-btn" id="themeBtn"></button>
+      <button class="theme-btn" id="langBtn"></button>
+      <button class="theme-btn out" id="logoutBtn"></button>
+    </div>
+  </header>
+  <nav class="tabs" id="tabs"></nav>
+  <nav class="tabs subt" id="subtabs" hidden></nav>
+  <main id="main"></main>
+  <footer class="powered"><img src="logo-mark.png" alt=""> Powered by NexaCore ERP</footer>
+</div>
+<div class="modal" id="modal" hidden><div class="box" id="modalBox"></div></div>
+<div id="toast"></div>
+<div class="auth-screen" id="auth">
+  <div class="auth-card">
+    <img src="logo.png" class="auth-logo" alt="NexaCore ERP"><p class="sub" id="authSub"></p>
+    <form id="loginForm" class="stack" autocomplete="off">
+      <label class="f" id="coWrap"><span id="lblCo"></span><select id="coSel"></select></label>
+      <label class="f"><span id="lblUser"></span><input id="userInp" dir="ltr" required></label>
+      <label class="f"><span id="lblPass"></span><input id="passInp" type="password" dir="ltr" required></label>
+      <button class="btn primary" style="padding:10px" id="loginBtn"></button>
+    </form>
+    <p class="err" id="authErr" role="alert"></p>
+    <div class="row"><button class="link" id="ownerToggle"></button><button class="link" id="authLang"></button></div>
+  </div>
+</div>
+<script src="i18n.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
+
+
